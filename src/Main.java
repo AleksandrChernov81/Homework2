@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        int amount = 14568; // цена билета
+        int bonus = 20; // цена бонусной мили
+
+        System.out.println(amount / bonus + " бонусных миль ");
     }
 }
